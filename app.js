@@ -98,5 +98,5 @@ function convertText(text) {
     result += convertedWord + " ";
   }
 
-  return result;
+  return result.trim();
 }
